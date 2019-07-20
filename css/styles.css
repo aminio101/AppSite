@@ -23,8 +23,20 @@ Colors:
 - Backgrounds - dark denim #262431
 - Backgrounds - denim #2f2c3d
 ******************************************/
+
+
+@font-face {
+	font-family: 'BKoodakFont';
+	src: url('../webfonts/BKoodakBold.eot');
+	/* IE9 Compat Modes */
+	src: url('../webfonts/BKoodakBold.woff') format('woff'),
+		/* IE6-IE8 */
+		url('../webfonts/BKoodakBold.ttf') format('ttf');
+}
+
 * {
 	direction: rtl;
+	font-family: 'BkoodakFont';
 }
 
 /******************************/
@@ -32,6 +44,7 @@ Colors:
 /******************************/
 body,
 html {
+
 	width: 100%;
 	height: 100%;
 }
@@ -39,17 +52,17 @@ html {
 body,
 p {
 	color: #f1f1f8;
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem 'BKoodakFont', "Open Sans", sans-serif;
 }
 
 .p-large {
 	color: #f1f1f8;
-	font: 400 1rem/1.5rem "Open Sans", sans-serif;
+	font: 400 1rem/1.5rem 'BKoodakFont', "Open Sans", sans-serif;
 }
 
 .p-small {
 	color: #f1f1f8;
-	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+	font: 400 0.75rem/1.25rem 'BKoodakFont', "Open Sans", sans-serif;
 }
 
 .margin {
@@ -72,32 +85,32 @@ p {
 
 h1 {
 	color: #f1f1f8;
-	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
+	font: 700 2.5rem/2.875rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 h2 {
 	color: #f1f1f8;
-	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
+	font: 700 2.25rem/2.75rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 h3 {
 	color: #f1f1f8;
-	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+	font: 700 1.75rem/2.125rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 h4 {
 	color: #f1f1f8;
-	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+	font: 700 1.375rem/1.75rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 h5 {
 	color: #f1f1f8;
-	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
+	font: 700 1.125rem/1.625rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 h6 {
 	color: #f1f1f8;
-	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+	font: 700 1rem/1.5rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 a {
@@ -119,11 +132,11 @@ a.white {
 }
 
 .testimonial-text {
-	font: italic 400 1rem/1.5rem "Open Sans", sans-serif;
+	font: italic 400 1rem/1.5rem 'BKoodakFont', "Open Sans", sans-serif;
 }
 
 .testimonial-author {
-	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+	font: 700 1rem/1.5rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 .btn-solid-reg {
@@ -133,7 +146,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: #00c9db;
 	color: #fff;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -151,7 +164,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: #00c9db;
 	color: #fff;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -180,7 +193,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #00c9db;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -198,7 +211,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #00c9db;
-	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -216,7 +229,7 @@ a.white {
 	border-radius: 2rem;
 	background-color: transparent;
 	color: #00c9db;
-	font: 700 0.625rem/0 "Montserrat", sans-serif;
+	font: 700 0.625rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -246,7 +259,7 @@ a.white {
 	left: 1.375rem;
 	color: #f1f1f8;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.375rem 'BKoodakFont', "Open Sans", sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -281,7 +294,7 @@ screen and (-ms-high-contrast: none) {
 	border-radius: 0.25rem;
 	background-color: #413d52;
 	color: #f1f1f8;
-	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.875rem 'BKoodakFont', "Open Sans", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none;
 	/* removes inner shadow on form inputs on ios safari */
@@ -340,7 +353,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #413d52;
 	color: #f1f1f8;
-	font: 400 0.875rem/1.75rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.75rem 'BKoodakFont', "Open Sans", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -359,7 +372,7 @@ select::-ms-expand {
 }
 
 .checkbox {
-	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
+	font: 400 0.75rem/1.25rem 'BKoodakFont', "Open Sans", sans-serif;
 }
 
 input[type='checkbox'] {
@@ -383,7 +396,7 @@ screen and (-ms-high-contrast: none) {
 	border-radius: 1.5rem;
 	background-color: #00c9db;
 	color: #fff;
-	font: 700 0.75rem/1.75rem "Montserrat", sans-serif;
+	font: 700 0.75rem/1.75rem 'BKoodakFont', "Montserrat", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
@@ -401,7 +414,7 @@ screen and (-ms-high-contrast: none) {
 	display: block;
 	margin-bottom: 0;
 	color: #f1f1f8;
-	font: 400 1.125rem/1rem "Open Sans", sans-serif;
+	font: 400 1.125rem/1rem 'BKoodakFont', "Open Sans", sans-serif;
 }
 
 .help-block.with-errors .list-unstyled {
@@ -689,7 +702,7 @@ screen and (-ms-high-contrast: none) {
 .navbar-custom {
 	background-color: #4633af;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 700 0.75rem/2rem "Montserrat", sans-serif;
+	font: 700 0.75rem/2rem 'BKoodakFont', "Montserrat", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -764,7 +777,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 700 0.75rem/1.5rem "Montserrat", sans-serif;
+	font: 700 0.75rem/1.5rem 'BKoodakFont', "Montserrat", sans-serif;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
@@ -830,6 +843,8 @@ screen and (-ms-high-contrast: none) {
 
 .header h1 {
 	margin-bottom: 1rem;
+
+
 }
 
 .header #js-rotating {
@@ -940,7 +955,7 @@ screen and (-ms-high-contrast: none) {
 	border-bottom: 0.1875rem solid #f1f1f8;
 	border-radius: 0;
 	color: #f1f1f8;
-	font: 700 1rem/1.75rem "Montserrat", sans-serif;
+	font: 700 1rem/1.75rem 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -1380,14 +1395,14 @@ screen and (-ms-high-contrast: none) {
 
 .counter #counter .counter-value {
 	color: #f1f1f8;
-	font: 700 3.5rem/4.25rem "Montserrat", sans-serif;
+	font: 700 3.5rem/4.25rem 'BKoodakFont', "Montserrat", sans-serif;
 	vertical-align: middle;
 }
 
 .counter #counter .counter-info {
 	margin-bottom: 0;
 	color: #00c9db;
-	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
+	font: 400 0.875rem/1.25rem 'BKoodakFont', "Open Sans", sans-serif;
 	vertical-align: middle;
 }
 
@@ -1604,7 +1619,7 @@ a:hover.back-to-top {
 	}
 
 	h1 {
-		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
+		font: 700 3.25rem/3.75rem 'BKoodakFont', "Montserrat", sans-serif;
 	}
 
 	/* end of general styles */
@@ -1632,13 +1647,13 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #c2db00e0;
 	}
 
 	.navbar-custom.top-nav-collapse {
 		padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #4633af;
+		background-color: #c2db00e0;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1857,7 +1872,7 @@ a:hover.back-to-top {
 	.header .header-content {
 		padding-top: 13rem;
 		padding-bottom: 10rem;
-		text-align: left;
+		text-align: right;
 	}
 
 	.header .text-container {
@@ -1996,7 +2011,7 @@ a:hover.back-to-top {
 	}
 
 	.counter #counter .counter-value {
-		font: 700 4.25rem/4.5rem "Montserrat", sans-serif;
+		font: 700 4.25rem/4.5rem 'BKoodakFont', "Montserrat", sans-serif;
 	}
 
 	/* end of statistics */
