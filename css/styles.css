@@ -18,7 +18,7 @@ Table Of Contents:
 Colors:
 
 - Text, navbar links - white #f1f1f8
-- Buttons, bullets, icons - turquoise #00c9db
+- Buttons, bullets, icons - turquoise #1dc9a3
 - Navbar - navy #4633af
 - Backgrounds - dark denim #262431
 - Backgrounds - denim #2f2c3d
@@ -42,6 +42,12 @@ Colors:
 /******************************/
 /*     01. General Styles     */
 /******************************/
+.my {
+	direction: ltr !important;
+	text-align: left !important;
+
+}
+
 body,
 html {
 
@@ -76,7 +82,7 @@ p {
 }
 
 .li-space-lg li {
-	margin-bottom: 0.375rem;
+	margin-bottom: 1rem;
 }
 
 .indent {
@@ -124,7 +130,7 @@ a:hover {
 }
 
 a.turquoise {
-	color: #00c9db;
+	color: #1dc9a3;
 }
 
 a.white {
@@ -142,9 +148,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #1dc9a3;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #1dc9a3;
 	color: #fff;
 	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
@@ -153,16 +159,16 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #1dc9a3;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #1dc9a3;
 	border-radius: 2rem;
-	background-color: #00c9db;
+	background-color: #1dc9a3;
 	color: #fff;
 	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
@@ -171,12 +177,12 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #1dc9a3;
 	text-decoration: none;
 }
 
 .btn-solid-lg .fab {
-	margin-right: 0.5rem;
+	margin-left: 0.5rem;
 	font-size: 1.25rem;
 	line-height: 0;
 	vertical-align: top;
@@ -189,17 +195,17 @@ a.white {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #1dc9a3;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #1dc9a3;
 	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #00c9db;
+	background-color: #1dc9a3;
 	color: #fff;
 	text-decoration: none;
 }
@@ -207,17 +213,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #1dc9a3;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #1dc9a3;
 	font: 700 0.75rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #00c9db;
+	background-color: #1dc9a3;
 	color: #fff;
 	text-decoration: none;
 }
@@ -225,17 +231,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.875rem 1.625rem;
-	border: 0.125rem solid #00c9db;
+	border: 0.125rem solid #1dc9a3;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00c9db;
+	color: #1dc9a3;
 	font: 700 0.625rem/0 'BKoodakFont', "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #00c9db;
+	background-color: #1dc9a3;
 	color: #fff;
 	text-decoration: none;
 }
@@ -392,9 +398,9 @@ screen and (-ms-high-contrast: none) {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #00c9db;
+	border: 1px solid #1dc9a3;
 	border-radius: 1.5rem;
-	background-color: #00c9db;
+	background-color: #1dc9a3;
 	color: #fff;
 	font: 700 0.75rem/1.75rem 'BKoodakFont', "Montserrat", sans-serif;
 	cursor: pointer;
@@ -403,7 +409,7 @@ screen and (-ms-high-contrast: none) {
 
 .form-control-submit-button:hover {
 	background-color: transparent;
-	color: #00c9db;
+	color: #1dc9a3;
 }
 
 /* Form Success And Error Message Formatting */
@@ -733,7 +739,7 @@ screen and (-ms-high-contrast: none) {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #00c9db;
+	color: #1dc9a3;
 }
 
 /* Dropdown Menu */
@@ -781,7 +787,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #00c9db;
+	color: #1dc9a3;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -962,9 +968,9 @@ screen and (-ms-high-contrast: none) {
 
 .tabs .nav-link.active,
 .tabs .nav-link:hover {
-	border-bottom: 0.1875rem solid #00c9db;
+	border-bottom: 0.1875rem solid #1dc9a3;
 	background-color: transparent;
-	color: #00c9db;
+	color: #1dc9a3;
 }
 
 .tabs .nav-link .fas {
@@ -995,7 +1001,7 @@ screen and (-ms-high-contrast: none) {
 	width: 3.5rem;
 	height: 3.5rem;
 	border-radius: 50%;
-	background-color: #00c9db;
+	background-color: #1dc9a3;
 	text-align: center;
 	vertical-align: top;
 }
@@ -1233,7 +1239,7 @@ screen and (-ms-high-contrast: none) {
 	padding: 3rem 1rem;
 	border-radius: 0.25rem;
 	background-color: #2f2c3d;
-	text-align: left;
+	text-align: justify;
 }
 
 .lightbox-basic img {
@@ -1248,14 +1254,14 @@ screen and (-ms-high-contrast: none) {
 }
 
 .lightbox-basic hr {
-	width: 3.75rem;
+	width: 9 rem;
 	height: 0.125rem;
 	margin-top: 0.125rem;
 	margin-bottom: 1.125rem;
 	margin-left: 0;
 	border: 0;
-	background-color: #00c9db;
-	text-align: left;
+	background-color: #1dc9a3;
+
 }
 
 .lightbox-basic h4 {
@@ -1275,7 +1281,7 @@ screen and (-ms-high-contrast: none) {
 .lightbox-basic table .icon-cell {
 	width: 2rem;
 	padding-right: 0.25rem;
-	color: #00c9db;
+	color: #1dc9a3;
 	text-align: center;
 }
 
@@ -1283,8 +1289,8 @@ screen and (-ms-high-contrast: none) {
 	position: relative;
 	width: auto;
 	height: auto;
-	margin-left: 0.375rem;
-	color: #00c9db;
+	margin-right: 13rem;
+	color: #1dc9a3;
 	opacity: 1;
 }
 
@@ -1313,6 +1319,7 @@ screen and (-ms-high-contrast: none) {
 
 .slider-2 .slider-container {
 	position: relative;
+	margin-top: 3rem;
 }
 
 .slider-2 .swiper-container {
@@ -1401,7 +1408,7 @@ screen and (-ms-high-contrast: none) {
 
 .counter #counter .counter-info {
 	margin-bottom: 0;
-	color: #00c9db;
+	color: #1dc9a3;
 	font: 400 0.875rem/1.25rem 'BKoodakFont', "Open Sans", sans-serif;
 	vertical-align: middle;
 }
@@ -1433,7 +1440,7 @@ screen and (-ms-high-contrast: none) {
 .form .list-unstyled .fab {
 	margin-left: 0.5rem;
 	font-size: 0.875rem;
-	color: #00c9db;
+	color: #1dc9a3;
 }
 
 .form .list-unstyled .fa-phone {
@@ -1458,7 +1465,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .footer .list-unstyled .fas {
-	color: #00c9db;
+	color: #1dc9a3;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1488,7 +1495,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-	color: #00c9db;
+	color: #1dc9a3;
 }
 
 
@@ -1520,7 +1527,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00c9db url("../images/up-arrow.png") no-repeat center 47%;
+	background: #1dc9a3 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1574,7 +1581,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-	color: #00c9db;
+	color: #1dc9a3;
 	font-size: 0.5rem;
 	line-height: 1.375rem;
 }
@@ -1647,13 +1654,13 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #c2db00e0;
+		color: #000;
 	}
 
 	.navbar-custom.top-nav-collapse {
 		padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #c2db00e0;
+		background-color: #1dc9a3;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1666,7 +1673,7 @@ a:hover.back-to-top {
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00c9db;
+		color: #000;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1840,7 +1847,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack-2x {
-		color: #00c9db;
+		color: #1dc9a3;
 		transition: all 0.2s ease;
 	}
 
@@ -1854,7 +1861,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .fa-stack:hover .fa-stack-1x {
-		color: #00c9db;
+		color: #1dc9a3;
 	}
 
 	/* end of navigation */

@@ -72,7 +72,7 @@
         },
         loop: true,
         navigation: {
-            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
         },
         slidesPerView: 3,
@@ -98,8 +98,8 @@
         },
         loop: false,
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            prevEl: '.swiper-button-next',
+            nextEl: '.swiper-button-prev',
         },
         spaceBetween: 30,
         slidesPerView: 5,
@@ -294,7 +294,7 @@
         } else {
             var msgClasses = "h3 text-center";
         }
-        $("#cmsgSubmit").removeClass().addClass(msgClasses).text(msg);
+        //$("#cmsgSubmit").removeClass().addClass(msgClasses).text(msg);
     }
 
 
