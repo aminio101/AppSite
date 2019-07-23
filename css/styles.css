@@ -706,7 +706,19 @@ screen and (-ms-high-contrast: none) {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
+	background: -moz-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	/* ff3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(29, 201, 163, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+	/* safari4+,chrome */
+	background: -webkit-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	/* safari5.1+,chrome10+ */
+	background: -o-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	/* opera 11.10+ */
+	background: -ms-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	/* ie10+ */
+	background: linear-gradient(92deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+	/* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1dc9a3', endColorstr='#000000', GradientType=1);
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 10000 0.75rem/2rem 'BKoodakFont', "Montserrat", sans-serif !important;
 	transition: all 0.2s;
@@ -714,7 +726,7 @@ screen and (-ms-high-contrast: none) {
 
 .navbar-custom .navbar-brand.logo-image img {
 	width: 113px;
-	height: 34px;
+	height: 50px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
@@ -739,7 +751,7 @@ screen and (-ms-high-contrast: none) {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #1dc9a3;
+	color: #48ebc7;
 }
 
 /* Dropdown Menu */
@@ -787,7 +799,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
-	color: #1dc9a3;
+	color: #48ebc7;
 }
 
 .navbar-custom .dropdown-items-divide-hr {
@@ -833,7 +845,7 @@ screen and (-ms-high-contrast: none) {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/back.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -934,7 +946,7 @@ screen and (-ms-high-contrast: none) {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #2f2c3d;
+	background-color: #262431;
 }
 
 .tabs h2 {
@@ -1191,7 +1203,8 @@ screen and (-ms-high-contrast: none) {
 .basic-2 {
 	padding-top: 8rem;
 	padding-bottom: 3.5rem;
-	background-color: #262431;
+	background-color: #10705B;
+
 }
 
 .basic-2 img {
@@ -1213,7 +1226,8 @@ screen and (-ms-high-contrast: none) {
 .basic-3 {
 	padding-top: 3.5rem;
 	padding-bottom: 7.25rem;
-	background-color: #262431;
+	background-color: #10705B;
+
 }
 
 .basic-3 .text-container {
@@ -1314,7 +1328,7 @@ screen and (-ms-high-contrast: none) {
 .slider-2 {
 	padding-top: 6.875rem;
 	padding-bottom: 6.875rem;
-	background-color: #2f2c3d;
+	background-color: #262431;
 }
 
 .slider-2 .slider-container {
@@ -1654,13 +1668,25 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #000;
+		color: #1dc9a3;
 	}
 
 	.navbar-custom.top-nav-collapse {
 		padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #1dc9a3;
+		background: -moz-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+		/* ff3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(29, 201, 163, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+		/* safari4+,chrome */
+		background: -webkit-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+		/* safari5.1+,chrome10+ */
+		background: -o-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+		/* opera 11.10+ */
+		background: -ms-linear-gradient(358deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+		/* ie10+ */
+		background: linear-gradient(92deg, rgba(29, 201, 163, 1) 0%, rgba(0, 0, 0, 1) 100%);
+		/* w3c */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1dc9a3', endColorstr='#000000', GradientType=1);
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1673,7 +1699,7 @@ a:hover.back-to-top {
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #000;
+		color: #1dc9a3;
 	}
 
 	.navbar-custom .dropdown-menu {
