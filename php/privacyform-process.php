@@ -25,7 +25,7 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
+$EmailTo = "support@ecoiwm.ir";
 $Subject = "New privacy request from Leno landing page";
 
 // prepare email body text

@@ -198,7 +198,6 @@
         mainClass: 'my-mfp-slide-bottom'
     });
 
-
     /* Counter - CountTo */
     var a = 0;
     $(window).scroll(function () {
